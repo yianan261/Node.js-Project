@@ -1,0 +1,38 @@
+{
+  "name": "nodejs_project",
+  "version": "1.0.0",
+  "description": "app to create public and private stories",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yianan261/Node.js-Project.git"
+  },
+  "author": "Yian Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yianan261/Node.js-Project/issues"
+  },
+  "homepage": "https://github.com/yianan261/Node.js-Project#readme",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.5",
+    "morgan": "^1.10.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^8.25.0",
+    "nodemon": "^2.0.20"
+  }
+}
